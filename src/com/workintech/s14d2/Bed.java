@@ -38,4 +38,9 @@ public class Bed {
     public int getQuilt() {
         return quilt;
     }
+
+    @Override
+    public String toString() {
+        return style + " style " + pillows + " pillows " + height + " m. height " + sheets + " sheets " + quilt + " quilts ";
+    }
 }

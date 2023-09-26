@@ -14,4 +14,9 @@ public class Wall {
     public void create(){
         System.out.println("This wall faces " + direction + ".");
     }
+
+    @Override
+    public String toString() {
+        return direction + " direction ";
+    }
 }
