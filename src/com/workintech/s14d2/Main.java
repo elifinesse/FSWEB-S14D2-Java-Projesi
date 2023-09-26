@@ -21,6 +21,8 @@ public class Main {
 
         System.out.println(bedroom1);
 
+        System.out.println("*****************");
+
         bed.make();
         lamp.turnOn();
         carpet.lying();

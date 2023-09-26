@@ -66,6 +66,6 @@ public class Bedroom {
 
     @Override
     public String toString() {
-        return "Name: " + name + " Wall1: " + wall1 + " Wall2: " + wall2 + " Wall3: " + wall3 + " Wall4: " + wall4 + " Ceiling: " + ceiling + " Bed: " + bed + " Lamp: " + lamp + " Wardrobe: " + wardrobe + " Carpet: " + carpet;  
+        return "Name: " + name + "\nWall1: " + wall1 + "\nWall2: " + wall2 + "\nWall3: " + wall3 + "\nWall4: " + wall4 + "\nCeiling: " + ceiling + "\nBed: " + bed + "\nLamp: " + lamp + "\nWardrobe: " + wardrobe + "\nCarpet: " + carpet;  
     }
 }
