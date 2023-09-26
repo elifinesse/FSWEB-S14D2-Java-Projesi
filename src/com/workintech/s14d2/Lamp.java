@@ -26,4 +26,10 @@ public class Lamp {
     public void turnOn(){
         System.out.println("Lamp is being turned on.");
     }
+
+    @Override
+    public String toString() {
+        String pil = battery ? " battery full " : " battery empty ";
+        return style + pil + globRating + " rating ";
+    }
 }

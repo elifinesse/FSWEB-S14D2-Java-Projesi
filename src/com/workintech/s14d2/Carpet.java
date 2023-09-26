@@ -26,4 +26,9 @@ public class Carpet {
     public void lying(){
         System.out.println("Carpet is lying on Bedroom floor.");
     }
+
+    @Override
+    public String toString() {
+        return width + " m. wide " + height + " m. long " + color;
+    }
 }

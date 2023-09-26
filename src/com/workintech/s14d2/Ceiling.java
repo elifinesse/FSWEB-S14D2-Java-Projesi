@@ -20,4 +20,9 @@ public class Ceiling {
     public void create(){
         System.out.println("This ceiling is " + getHeight() + "m high and painted " + getPaintedColor());
     }
+
+    @Override
+    public String toString() {
+        return getHeight() + "m high and painted " + getPaintedColor();
+    }
 }
